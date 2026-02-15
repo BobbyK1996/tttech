@@ -19,7 +19,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@components/*": ["./app/_components/*"],
+      "@lib/*": ["./app/_lib/*"],
+      "@data/*": ["./app/_lib/data/*"],
+      "@helpers/*": ["./app/_lib/helpers/*"]
     }
   },
   "include": [
@@ -28,7 +32,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    "prettier.config.js"
   ],
   "exclude": ["node_modules"]
 }
