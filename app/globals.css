@@ -1,1 +1,11 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@theme inline {
+  --font-main: var(--font-marcellus);
+  --font-secondary: var(--font-quattrocento_sans);
+  --font-tertiary: var(--font-poppins);
+  /* --font-main: var(--font-marcellus);
+  --font-secondary: var(--font-quattrocento_sans);
+  --font-tertiary: var(--font-poppins);
+  --font-fallback: var(--font-quattrocento_sans); */
+}
