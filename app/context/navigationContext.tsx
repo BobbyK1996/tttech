@@ -47,9 +47,4 @@ const useNavigation = (): NavProps => {
   return context;
 };
 
-// const defaultValue: NavigationContextType = {
-//   isOpen: false,
-//   toggle: () => {},
-// };
-
-// const NavigationContext = createContext<NavigationContextType>(defaultValue);
+export { NavigationProvider, useNavigation };

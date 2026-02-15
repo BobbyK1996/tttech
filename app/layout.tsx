@@ -2,12 +2,7 @@ import "@/app/globals.css";
 
 import type { Metadata } from "next";
 
-import {
-  Marcellus,
-  Poppins,
-  Quattrocento_Sans,
-  DM_Sans,
-} from "next/font/google";
+import { Marcellus, Poppins, Quattrocento_Sans } from "next/font/google";
 
 import Header from "@components/Header";
 
