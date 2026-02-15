@@ -9,7 +9,7 @@ import {
   DM_Sans,
 } from "next/font/google";
 
-import { quattrocento, marcellus, poppins, dmsans } from "@lib/data/fonts";
+import Header from "@components/Header";
 
 export const metadata: Metadata = {
   title: "TT Tech Talent",
@@ -42,8 +42,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${marcellusFont.variable} ${quattrocentoFont.variable} ${poppinsFont.variable} relative -z-10 flex min-h-screen w-full flex-col overflow-x-hidden`}
+        className={`${marcellusFont.variable} ${quattrocentoFont.variable} ${poppinsFont.variable} bg-dark-900 relative -z-10 flex min-h-screen w-full flex-col overflow-x-hidden`}
       >
+        <Header />
         {children}
       </body>
     </html>

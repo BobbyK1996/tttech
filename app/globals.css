@@ -4,8 +4,34 @@
   --font-main: var(--font-marcellus);
   --font-secondary: var(--font-quattrocento_sans);
   --font-tertiary: var(--font-poppins);
-  /* --font-main: var(--font-marcellus);
-  --font-secondary: var(--font-quattrocento_sans);
-  --font-tertiary: var(--font-poppins);
-  --font-fallback: var(--font-quattrocento_sans); */
+
+  /* Primary Colors */
+  --color-primary-50: #e9fffe;
+  --color-primary-100: #c9fffe;
+  --color-primary-200: #99ffff;
+  --color-primary-300: #54fbff;
+  --color-primary-400: #07edff;
+  --color-primary-500: #00cfef;
+  --color-primary-600: #00a4c9;
+  --color-primary-700: #0082a1;
+  --color-primary-800: #086882;
+  --color-primary-900: #0c556d;
+  --color-primary-950: #00171f;
+
+  /* Accent Colors */
+  --color-accent-50: #f2fbf9;
+  --color-accent-100: #d4f3ee;
+  --color-accent-200: #a9e6dd;
+  --color-accent-300: #76d2c9;
+  --color-accent-400: #49b8b0;
+  --color-accent-500: #2f9a94;
+  --color-accent-600: #247d7a;
+  --color-accent-700: #206563;
+  --color-accent-800: #1e5151;
+  --color-accent-900: #1d4443;
+  --color-accent-950: #0b2728;
+
+  /* Dart Colors */
+  --color-dark-900: #070c12;
+  --color-dark-950: #020204;
 }
